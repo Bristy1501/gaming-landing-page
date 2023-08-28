@@ -295,6 +295,7 @@ figcaption {
 .different-games {
     display: flex;
     align-items: center;
+    justify-content: center;
     border: #0B0223;
     gap: 10px;
     width: 200px;
@@ -613,7 +614,6 @@ figcaption {
 
 @media screen and (max-width: 425px) {
     .banner-container {
-        background-color: #fff;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -821,23 +821,25 @@ figcaption {
         margin-right: 0px;
         padding-left: 0px;
         padding-right: 0px;
-        gap: 26px
+        gap: 15px
     }
 
     .different-games {
         display: flex;
         align-items: center;
+        justify-content: center;
         border: #0B0223;
-        gap: 0px;
+        gap: 6px;
         width: 80px;
         padding: 0px;
+        /* padding-left: 3px; */
 
 
     }
 
     .different-games>p {
         color: #0B0223;
-        font-size: 6px;
+        font-size: 7px;
         font-weight: 600;
 
     }
